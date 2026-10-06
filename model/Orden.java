@@ -34,12 +34,11 @@ public class Orden {
 
     public void prepararOrden() {
 
-        System.out.println("Preparando orden " + numeroOrden);
+    System.out.println("Preparando orden " + numeroOrden);
 
-        pizza.amasar();
-        pizza.agregarTopping();
-        pizza.cocinar();
-    }
+    pizza.amasar();
+    pizza.cocinar();
+}
 
     public void entregarOrden() {
         System.out.println("Orden " + numeroOrden + " entregada.");
