@@ -4,7 +4,6 @@ import model.Pizza;
 import model.Masa;
 import model.Sabor;
 import model.Ingrediente;
-
 import java.util.Scanner;
 
 public class Main {
